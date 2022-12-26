@@ -1,0 +1,93 @@
+/* for premiere section */
+
+.premiere-movies-section {
+  background: rgb(43, 49, 72);
+  position: relative;
+  margin-top: 30px;
+}
+
+/* premiere banner image */
+.banner-premiere-img-container {
+  display: grid;
+  place-items: center;
+}
+.banner-premiere-img {
+  margin-top: 20px;
+  width: calc(100vw - 10vw);
+}
+@media screen and (max-width: 1024px) {
+  .banner-premiere-img {
+    margin-left: 20px;
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner-premiere-img {
+    margin-left: 20px;
+    padding-left: 0;
+  }
+  .banner-premiere-img-container {
+    margin-left: 2rem;
+  }
+}
+@media screen and (max-width: 767px) {
+  .banner-premiere-img {
+    margin-right: 50px;
+  }
+  .banner-premiere-img-container {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 695px) {
+  .banner-premiere-img {
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 508px) {
+  .banner-premiere-img {
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .banner-premiere-img {
+    margin-right: 10px;
+  }
+}
+
+/* premiere title */
+.premiere-heading-title {
+  color: white;
+}
+.premiere-heading-title span {
+  font-size: 0.9rem;
+  font-weight: 200;
+}
+.see-all-premiere {
+  color: rgb(220, 53, 88) !important;
+}
+
+/* for premiere poster and movie title and description */
+.premiere-poster,
+.border-radius-poster {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+.premiere-movie-title {
+  color: white;
+  font-size: 1rem;
+}
+.premiere-description {
+  color: white;
+  font-size: 0.9rem;
+}
+
+/* for btns */
+.premiere-slide-btn1 {
+  top: 60%;
+}
+.premiere-slide-btn2 {
+  top: 60%;
+}

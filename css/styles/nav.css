@@ -1,0 +1,205 @@
+/* nav bar */
+
+/* for mobile view */
+nav {
+  background: rgb(51, 53, 69);
+  padding: 1rem;
+}
+.nav-left {
+  color: white;
+}
+.nav-left h1 {
+  font-size: 1.6rem;
+}
+.nav-left h3 a {
+  font-size: 0.8rem;
+  font-weight: 300;
+  padding-top: 6px;
+  color: white;
+}
+.nav-left h3 span {
+  font-size: 0.5rem;
+}
+
+.nav-btn {
+  font-size: 0.8rem;
+  padding: 8px;
+  border-radius: 8px;
+  color: white;
+  font-weight: 600;
+  border: transparent;
+  background-color: var(--primary-color);
+}
+.nav-search-icon {
+  color: white;
+  font-size: 1.3rem;
+  margin-left: 10px;
+}
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* for desktop view */
+.nav-header-desktop {
+  display: none;
+}
+.nav-search {
+  background-color: white;
+  color: grey;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  border-radius: 6px;
+  margin-left: 30px;
+}
+
+.nav-search .nav-search-icon {
+  color: grey;
+  font-size: 1rem;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.nav-bar-icon {
+  color: white;
+  margin-left: 20px;
+  font-size: 1.3rem;
+}
+
+/* nav links in desktop view */
+.nav-header-links {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  /* nav bar in desktop view */
+  .nav-header {
+    display: none;
+  }
+  .nav-header-desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav-left,
+  .nav-right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .nav-right {
+    justify-content: flex-end;
+  }
+  .nav-right a {
+    font-size: 0.8rem;
+    margin-right: 10px;
+    font-weight: 100;
+    color: white;
+  }
+  .nav-btn {
+    padding: 6px 15px;
+  }
+  .nav-right h3 a {
+    font-size: 1rem;
+  }
+  .nav-right h3,
+  .nav-right a {
+    margin-right: 20px;
+  }
+  .nav-left {
+    margin-left: 55px;
+  }
+  .nav-right {
+    margin-right: 40px;
+    margin-left: 40px;
+  }
+
+  /* nav links in desktop view */
+  .nav-header-links {
+    display: flex;
+    background-color: rgb(34, 37, 57);
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: 200;
+  }
+  .nav-links-left,
+  .nav-links-right {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .nav-links-left li a {
+    color: #ced4da;
+    font-size: 0.9rem;
+  }
+  .nav-links-left li a:hover {
+    color: white;
+  }
+  .nav-links-right li a {
+    color: white;
+    font-size: 0.75rem;
+  }
+  .nav-links-right {
+    justify-content: flex-end;
+  }
+
+  .nav-header-links li {
+    padding: 10px;
+  }
+  .nav-header-links sup {
+    font-size: 0.5rem;
+    color: var(--primary-color);
+  }
+}
+
+/* adjusting the nav links in desktop view */
+@media screen and (max-width: 933px) {
+  .nav-header-links li {
+    padding: 6px;
+  }
+  .nav-links-left li a {
+    font-size: 0.7rem;
+  }
+  .nav-links-right li a {
+    font-size: 0.65rem;
+  }
+}
+
+/* minimizing the search box in desktop view */
+@media screen and (max-width: 1079px) {
+  .nav-search .text {
+    white-space: nowrap;
+    width: 300px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+@media screen and (max-width: 960px) {
+  .nav-search .text {
+    white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .nav-left h1 {
+    font-size: 1rem;
+  }
+  .nav-btn {
+    font-size: 0.65rem;
+    padding: 6px;
+  }
+  .nav-search-icon {
+    font-size: 1rem;
+  }
+}

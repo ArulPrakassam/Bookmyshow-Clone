@@ -1,0 +1,148 @@
+/* banner stream image section*/
+.banner-stream-section {
+  display: grid;
+  place-items: center;
+}
+.banner-stream-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-stream-img {
+  width: calc(100vw - 10vw);
+}
+@media screen and (max-width: 1024px) {
+  .banner-stream-img {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 769px) {
+  .banner-stream-img {
+    margin-left: 60px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .banner-stream-img {
+    margin-left: 60px;
+    height: 50px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .banner-stream-img {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+/* online streaming events section */
+.online-streaming-events-section {
+  position: relative;
+}
+
+.online-streaming-heading h1,
+.online-streaming-heading h4 {
+  margin-top: 40px;
+}
+
+/* outdoor events section */
+
+.outdoor-events-heading h1 span {
+  background-color: var(--primary-color);
+  color: white;
+  font-size: 1rem;
+  font-weight: 200;
+}
+
+/* for btns */
+
+.outdoor-events-section {
+  position: relative;
+}
+
+/* laughter therapy section */
+
+/* for btns */
+.laughter-therapy-section {
+  position: relative;
+}
+
+/* popular events section */
+
+/* for btns */
+
+.popular-events-section {
+  position: relative;
+}
+
+/* games and sports events section */
+
+/* for btns */
+.games-sport-section {
+  position: relative;
+}
+
+/* fun activites section */
+
+/* for btns */
+
+.fun-activities-section {
+  position: relative;
+}
+
+/* trending searches section */
+
+.trending-searches {
+  transition: 0.5s;
+  display: none;
+}
+@media screen and (min-width: 769px) {
+  .trending-searches {
+    display: block;
+  }
+}
+.trending-search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 6px;
+}
+.trending-search-container h2 {
+  color: var(--primary-color);
+  font-size: 1rem;
+}
+.trending-search-container h3 {
+  color: rgb(160, 156, 156);
+  font-size: 0.8rem;
+  font-weight: 200;
+}
+.trending-search-main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 1rem 1rem 1rem 4rem;
+}
+
+/* backto home section */
+
+.backto-home-section {
+  display: flex;
+  background-color: white;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+.backto-home a {
+  color: rgb(160, 156, 156);
+  font-size: 0.8rem;
+}
+@media screen and (max-width: 768px) {
+  .backto-home-section {
+    display: none;
+  }
+}

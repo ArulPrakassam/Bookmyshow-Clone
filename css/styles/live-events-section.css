@@ -1,0 +1,68 @@
+/* for live events section */
+
+.live-events-img-container {
+  transition: 0.5s;
+  margin-right: 30px;
+}
+.live-events-img-container picture {
+  display: flex;
+}
+.live-events-img {
+  width: 215px;
+  border-radius: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .live-events {
+    margin-left: 70px;
+    margin-right: 30px;
+  }
+  .live-events-img {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .live-events {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 20px;
+  }
+}
+/* for fitting into smaller screen sizes */
+@media screen and (max-width: 767px) {
+  .live-events {
+    padding-left: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .live-events-img {
+    width: 140px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .live-events {
+    padding-left: 15px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .live-events-img {
+    width: 110px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .live-events-img {
+    width: 150px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .live-events-img {
+    width: 130px;
+  }
+}
+
+/* for buttons */
+
+.live-events-section {
+  position: relative;
+}

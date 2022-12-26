@@ -1,0 +1,26 @@
+/* movies list section*/
+
+.movie-poster {
+  height: 350px;
+}
+
+/* for below the poster image (rating content) */
+.star-rating {
+  color: white;
+  font-size: 0.87rem;
+  letter-spacing: 2px;
+  font-weight: 100;
+  padding: 6px;
+  margin-top: -5px;
+  background-color: black;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.star-rating span {
+  color: var(--primary-color);
+}
+
+.movies-list-section {
+  position: relative;
+}

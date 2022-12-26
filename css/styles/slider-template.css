@@ -1,0 +1,168 @@
+/*  for slider template css */
+
+.heading {
+  margin: 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-name {
+  font-size: 1.4rem;
+}
+.heading h4 {
+  font-size: 0.76rem;
+}
+.heading h4 a {
+  color: var(--primary-color);
+}
+.heading h4 a span {
+  font-size: 0.5rem;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    margin: 1rem 70px;
+  }
+}
+@media screen and (max-width: 467px) {
+  .title-name {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hidden-see-all {
+    display: none;
+  }
+}
+
+/* for poster content */
+
+.img-container {
+  border-radius: 6px;
+  height: 100%;
+  width: 230px;
+  margin: 20px;
+  margin-bottom: 10px;
+}
+
+.img-container picture {
+  display: flex;
+}
+.poster {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+/* for poster title content */
+.poster-title-container {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  margin: 20px;
+  margin-top: 0;
+  padding-top: 0;
+  width: inherit;
+}
+.poster-title {
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin-top: 0;
+  padding-top: 0;
+}
+.description {
+  font-size: 0.85rem;
+  color: rgb(160, 156, 156);
+  font-weight: 200;
+  text-transform: capitalize;
+  padding-top: 2px;
+}
+
+/* making the poster and poster title content together */
+.container {
+  display: flex;
+  flex-direction: column;
+  transition: 0.5s;
+}
+
+/* making poster and below poster content smaller for small screen sizes */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 150px;
+  }
+  .img-container {
+    width: inherit;
+    padding-right: 20px;
+  }
+  .star-rating {
+    font-size: 0.6rem;
+  }
+  .poster-title-container {
+    width: inherit;
+  }
+  .description,
+  .poster-title {
+    white-space: nowrap;
+    width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .poster-title {
+    font-size: 0.7rem;
+  }
+  .description {
+    font-size: 0.7rem;
+  }
+  .poster {
+    height: 200px;
+  }
+}
+
+/* making the view of slider for desktop mode view */
+.head-container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 768px) {
+  .head-container {
+    margin-left: 50px;
+    margin-right: 20px;
+  }
+}
+
+/* slide btns */
+
+.slide-btns {
+  display: none;
+}
+@media screen and (min-width: 769px) {
+  .slide-btns {
+    display: block;
+    padding: 8px 10px;
+    background-color: grey;
+    color: white;
+    border-radius: 25%;
+    border: none;
+    display: block;
+  }
+  .slide-btn1 {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    margin-left: 60px;
+    z-index: 1;
+  }
+  .slide-btn2 {
+    position: absolute;
+    right: 0;
+    top: 45%;
+    margin-right: 45px;
+    z-index: 1;
+  }
+}
