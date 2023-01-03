@@ -10,6 +10,8 @@
 :root {
   --primary-color: rgb(248, 68, 100);
   --roboto-font: "Roboto", sans-serif;
+  --nav-links-color: #ced4da;
+  --footer-color: rgb(165, 165, 165);
 }
 ::-webkit-scrollbar {
   width: 0;

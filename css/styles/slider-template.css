@@ -150,6 +150,7 @@
     border-radius: 25%;
     border: none;
     display: block;
+    cursor: pointer;
   }
   .slide-btn1 {
     position: absolute;

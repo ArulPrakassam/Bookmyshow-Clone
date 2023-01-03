@@ -1,0 +1,362 @@
+[
+  {
+    "heading": "MOVIES NOW SHOWING IN PONDICHERRY",
+    "movies": [
+      {
+        "title": "Avatar: The Way of Water",
+        "link": ""
+      },
+      {
+        "title": "Driver Jamuna",
+        "link": ""
+      },
+      {
+        "title": "Sembi",
+        "link": ""
+      },
+      {
+        "title": "Connect",
+        "link": ""
+      },
+      {
+        "title": "Raangi",
+        "link": ""
+      },
+      {
+        "title": "Laththi",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "heading": "UPCOMING MOVIES IN PONDICHERRY",
+    "movies": [
+      {
+        "title": "Sadguru",
+        "link": ""
+      },
+      {
+        "title": "Mor Yaar Superstar",
+        "link": ""
+      },
+      {
+        "title": "Operation Fortune: Ruse de guerre",
+        "link": ""
+      },
+      {
+        "title": "Prathyardhi",
+        "link": ""
+      },
+      {
+        "title": "Lakiro",
+        "link": ""
+      },
+      {
+        "title": "The Y (Hindi)",
+        "link": ""
+      },
+      {
+        "title": "Cocktail (Kannada)",
+        "link": ""
+      },
+      {
+        "title": "Poovan",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "heading": "MOVIES BY GENRE",
+    "movies": [
+      {
+        "title": "Drama Movies",
+        "link": ""
+      },
+      {
+        "title": "Action Movies",
+        "link": ""
+      },
+      {
+        "title": "Thriller Movies",
+        "link": ""
+      },
+      {
+        "title": "Classic Movies",
+        "link": ""
+      },
+      {
+        "title": "Adventure Movies",
+        "link": ""
+      },
+      {
+        "title": "Period Movies",
+        "link": ""
+      },
+      {
+        "title": "Noir Movies",
+        "link": ""
+      },
+      {
+        "title": "Political Movies",
+        "link": ""
+      },
+      {
+        "title": "Supernatural Movies",
+        "link": ""
+      },
+      {
+        "title": "Fantasy Movies",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "heading": "MOVIES BY LANGUAGE",
+    "movies": [
+      {
+        "title": "Movies in Tamil",
+        "link": ""
+      },
+      {
+        "title": "Movies in Khasi",
+        "link": ""
+      },
+      {
+        "title": "Movies in Sindhi",
+        "link": ""
+      },
+      {
+        "title": "Movies in English 7D",
+        "link": ""
+      },
+      {
+        "title": "Movies in Hindi",
+        "link": ""
+      },
+      {
+        "title": "Movies in Punjabi",
+        "link": ""
+      },
+      {
+        "title": "Movies in French",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "heading": "PLAYS BY GENRE IN PONDICHERRY",
+    "movies": [
+      {
+        "title": "Action Plays",
+        "link": ""
+      },
+      {
+        "title": "Classic Plays",
+        "link": ""
+      },
+      {
+        "title": "Contemporary Plays",
+        "link": ""
+      },
+      {
+        "title": "Adventure Plays",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "heading": "MOVIE REVIEWS AND TRENDING ARTICLES",
+    "movies": [
+      {
+        "title": "Trending Articles",
+        "link": ""
+      },
+      {
+        "title": "Latest News on Movies, Events, Plays and Sports",
+        "link": ""
+      },
+      {
+        "title": "Movie Celebrities",
+        "link": ""
+      },
+      {
+        "title": "Trailers",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "heading": "MOVIE UPDATES AND CELEBRITIES",
+    "movies": [
+      {
+        "title": "Upcoming Movies",
+        "link": ""
+      },
+      {
+        "title": "Movies Now Showing",
+        "link": ""
+      },
+      {
+        "title": "Movie Celebrities",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "heading": "THINGS TO DO IN PONDICHERRY",
+    "movies": [
+      {
+        "title": "Adventure",
+        "link": ""
+      },
+      {
+        "title": "Amusement Parks",
+        "link": ""
+      },
+      {
+        "title": "Festivals",
+        "link": ""
+      },
+      {
+        "title": "Durga Puja Festival",
+        "link": ""
+      },
+      {
+        "title": "Food and Drinks",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "heading": "MOVIES IN TOP CITIES",
+    "movies": [
+      {
+        "title": "Movies in Mumbai",
+        "link": ""
+      },
+      {
+        "title": "Movies in Delhi-NCR",
+        "link": ""
+      },
+      {
+        "title": "Movies in Chennai",
+        "link": ""
+      },
+      {
+        "title": "Movies in Bengaluru",
+        "link": ""
+      },
+      {
+        "title": "Movies in Hyderabad",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "heading": "COUNTRIES",
+    "movies": [
+      {
+        "title": "Indonesia",
+        "link": ""
+      },
+      {
+        "title": "Singapore",
+        "link": ""
+      },
+      {
+        "title": "UAE",
+        "link": ""
+      },
+      {
+        "title": "Sri Lanka",
+        "link": ""
+      },
+      {
+        "title": "West Indies",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "heading": "HELP",
+    "movies": [
+      {
+        "title": "About Us",
+        "link": ""
+      },
+      {
+        "title": "Contact Us",
+        "link": ""
+      },
+      {
+        "title": "Current Opening",
+        "link": ""
+      },
+      {
+        "title": "Press Release",
+        "link": ""
+      },
+      {
+        "title": "Sitemap",
+        "link": ""
+      },
+      {
+        "title": "FAQs",
+        "link": ""
+      },
+      {
+        "title": "Terms and Conditions",
+        "link": ""
+      },
+      {
+        "title": "Privacy Policy",
+        "link": ""
+      }
+    ]
+  },
+  {
+    "heading": "BOOKMYSHOW EXCLUSIVES",
+    "movies": [
+      {
+        "title": "Lollapalooza India",
+        "link": ""
+      },
+      {
+        "title": "Superstar",
+        "link": ""
+      },
+      {
+        "title": "BookASmile",
+        "link": ""
+      },
+      {
+        "title": "Corporate Vouchers",
+        "link": ""
+      },
+      {
+        "title": "Gift Cards",
+        "link": ""
+      },
+      {
+        "title": "List My Show",
+        "link": ""
+      },
+      {
+        "title": "Offers",
+        "link": ""
+      },
+      {
+        "title": "Streams",
+        "link": ""
+      },
+      {
+        "title": "Buzz",
+        "link": ""
+      },
+      {
+        "title": "Trailers",
+        "link": ""
+      }
+    ]
+  }
+]

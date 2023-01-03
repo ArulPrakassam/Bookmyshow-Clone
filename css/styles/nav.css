@@ -137,7 +137,7 @@ nav {
     margin-right: 60px;
   }
   .nav-links-left li a {
-    color: #ced4da;
+    color: var(--nav-links-color);
     font-size: 0.9rem;
   }
   .nav-links-left li a:hover {

@@ -486,3 +486,7 @@ laughterTherapyFetch.laughterTherapySlideContent();
 popularEventsFetch.popularEventsSlideContent();
 gamesSportsEventsFetch.gamesSportsSlideContent();
 funActivitesFetch.funActivitesSlideContent();
+
+//current year
+
+document.querySelector(".current-year").textContent = new Date().getFullYear();
