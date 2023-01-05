@@ -203,3 +203,31 @@ nav {
     font-size: 1rem;
   }
 }
+
+/* nav links in mobile view */
+.nav-header-mobile-links {
+  display: none;
+  transition: 0.5s;
+}
+@media screen and (max-width: 767px) {
+  .nav-header-mobile-links {
+    display: grid;
+  }
+  .nav-mobile-links {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    /* grid-template-rows: repeat(1, 1fr); */
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    padding-top: 5px;
+    padding-bottom: 0;
+  }
+  .nav-mobile-links-icon {
+    width: 78px;
+  }
+}
+@media screen and (max-width: 403px) {
+  .nav-mobile-links-icon {
+    width: 67px;
+  }
+}
