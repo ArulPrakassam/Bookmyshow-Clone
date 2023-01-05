@@ -7,53 +7,25 @@
 }
 
 /* premiere banner image */
+
 .banner-premiere-img-container {
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-x: hidden;
 }
 .banner-premiere-img {
-  margin-top: 20px;
-  width: calc(100vw - 10vw);
+  margin-left: 65px;
 }
-@media screen and (max-width: 1024px) {
+
+@media screen and (max-width: 767px) {
   .banner-premiere-img {
     margin-left: 20px;
-    padding-left: 10px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .banner-premiere-img {
-    margin-left: 20px;
-    padding-left: 0;
-  }
-  .banner-premiere-img-container {
-    margin-left: 2rem;
   }
 }
 @media screen and (max-width: 767px) {
   .banner-premiere-img {
-    margin-right: 50px;
-  }
-  .banner-premiere-img-container {
-    margin-left: 0;
-  }
-}
-@media screen and (max-width: 695px) {
-  .banner-premiere-img {
-    padding-left: 0;
-    margin-right: 0;
-    margin-left: 0;
-    margin-right: 30px;
-  }
-}
-@media screen and (max-width: 508px) {
-  .banner-premiere-img {
-    margin-right: 20px;
-  }
-}
-@media screen and (max-width: 425px) {
-  .banner-premiere-img {
-    margin-right: 10px;
+    width: 1000px;
   }
 }
 
