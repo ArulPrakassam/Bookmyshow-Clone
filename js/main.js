@@ -490,3 +490,28 @@ funActivitesFetch.funActivitesSlideContent();
 //current year
 
 document.querySelector(".current-year").textContent = new Date().getFullYear();
+
+// mobile below menu icons
+
+const belowMenuIconContainer = document.querySelectorAll(
+  ".mobile-below-menu-container"
+);
+
+belowMenuIconContainer.forEach((item) => {
+  item.addEventListener("click", (e) => {
+    // getting the id of the clicked element
+    let id = e.currentTarget.dataset.id;
+
+    // traversing the all elements
+    belowMenuIconContainer.forEach((icon) => {
+      if (id === icon.dataset.id) {
+        // if id matches means then check for classList of child, if it is present means then remove it
+        if (icon.firstElementChild.classList.contains("black-color")) {
+          icon.firstElementChild.classList.remove("black-color");
+        }
+      } else {
+        icon.firstElementChild.classList.add("black-color");
+      }
+    });
+  });
+});
