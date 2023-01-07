@@ -1,52 +1,82 @@
 [
   {
     "title": "Black Adam",
-    "language": "English",
-    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1671818686/Bookmyshow%20assets/black%20adam.jpg"
+    "language": "English, Hindi, Tamil, Telugu",
+    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1671818686/Bookmyshow%20assets/black%20adam.jpg",
+    "genre": "2h 5m • Action, Fantasy, Sci-Fi • UA • 20 Oct, 2022",
+    "description": "A slave-turned-god, Teth-Adam (Dwayne Johnson) breaks free of his prison and fights to save his homeland from an ancient evil.",
+    "id": 1
   },
   {
     "title": "Bodies Bodies Bodies",
     "language": "English",
-    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1671819020/Bookmyshow%20assets/Bodies%20bodies%20bodies.jpg"
+    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1671819020/Bookmyshow%20assets/Bodies%20bodies%20bodies.jpg",
+    "genre": "1h 35m • Horror, Thriller • A • 25 Nov, 2022",
+    "description": "A group of rich friends find their party in a remote mansion taking a horrifying turn when one of them turns into a sadistic killer.",
+    "id": 2
   },
   {
     "title": "Top Gun: Maverick",
     "language": "English",
-    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1671819253/Bookmyshow%20assets/Top%20Gun%20%20Maverick.jpg"
+    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1671819253/Bookmyshow%20assets/Top%20Gun%20%20Maverick.jpg",
+    "genre": "2h 11m • Action , Drama • UA • 27 May, 2022",
+    "description": "Set 30 years after the events of `Top Gun` (1986), the sequel hinges on Captain Pete Mitchell`s (Tom Cruise) attempts to come to terms with his past, while training his friend`s son (Miles Teller) for a dangerous mission.",
+    "id": 3
   },
   {
     "title": "Jingle Vingle",
     "language": "Hindi",
-    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1671819393/Bookmyshow%20assets/Jingle%20Vingle.jpg"
+    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1671819393/Bookmyshow%20assets/Jingle%20Vingle.jpg",
+    "genre": "1h 35m • Family • 16+ • 2022",
+    "description": "Vicky gets an over-paying internship to shoot videos that connect Christmas to cake. But as he takes his journey with Natasha and his brother Jay, he finds theres a lot more to it.",
+    "id": 4
   },
   {
     "title": "Sohorer Upokotha",
     "language": "Bengali",
-    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1671819581/Bookmyshow%20assets/Sohorer%20Upokotha.jpg"
+    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1671819581/Bookmyshow%20assets/Sohorer%20Upokotha.jpg",
+    "genre": "1h 32m • Crime , Drama , Mystery • 13+ • 17 Sep, 2021",
+    "description": "Based on Badal Sarkar`s play, `Baki Itihash` (1965), the Bengali film `Sohorer Upokotha` exposes the deteriorating moral fabric of Indian society.",
+    "id": 5
   },
   {
     "title": "Padachonte Kadhakal",
     "language": "Malayalam",
-    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1671819619/Bookmyshow%20assets/Padachonte%20Kadhakal.jpg"
+    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1671819619/Bookmyshow%20assets/Padachonte%20Kadhakal.jpg",
+    "genre": "1h 38m • Drama • 13+ • 2022",
+    "description": "This Malayalam anthology brings to life four stories that explore humanity`s relationship with God.",
+    "id": 6
   },
   {
     "title": "The Rise of Hero",
     "language": "Mandarin",
-    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1671819690/Bookmyshow%20assets/The%20Rise%20of%20Hero.jpg"
+    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1671819690/Bookmyshow%20assets/The%20Rise%20of%20Hero.jpg",
+    "genre": "1h 32m • Action • 16+ • 21 Feb, 2019",
+    "description": "In Guangzhou, the conservative court plans to abort the Studying Abroad Campaign. Huang Fei Hong, who aspires to study abroad, must fight the court led by Eunuch Hai to fulfill his dream.",
+    "id": 7
   },
   {
     "title": "Matchless Mulan",
     "language": "Mandarin",
-    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1671819738/Bookmyshow%20assets/Matchless%20Mulan.jpg"
+    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1671819738/Bookmyshow%20assets/Matchless%20Mulan.jpg",
+    "genre": "1h 30m • Action , Drama , Historical • 18+ • 7 May, 2007",
+    "description": "During the Northern Wei dynasty, the Rouran army invades the border, triggering the battle. Mulan disguises herself as a man and goes to battlefield for her sick father.",
+    "id": 8
   },
   {
     "title": "Unhuman",
     "language": "English",
-    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1671819798/Bookmyshow%20assets/Unhuman.jpg"
+    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1671819798/Bookmyshow%20assets/Unhuman.jpg",
+    "genre": "1h 31m • Comedy , Horror , Thriller • 16+ • 3 Jun, 2022",
+    "description": "A class of high school students are forced to run for their lives, when a killer begins hunting them for sport.",
+    "id": 9
   },
   {
     "title": "Happy Valley, Series 2",
     "language": "English",
-    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1671819859/Bookmyshow%20assets/Happy%20Valley%2C%20Series%202.jpg"
+    "img": "https://res.cloudinary.com/dhxjitf9n/image/upload/v1671819859/Bookmyshow%20assets/Happy%20Valley%2C%20Series%202.jpg",
+    "genre": "6h • Drama • 18+",
+    "description": "Struggling with the pain of her daughter`s death, police sergeant Catherine Cawood puts a team of officers together to solve tough cases in their small town.",
+    "id": 10
   }
 ]

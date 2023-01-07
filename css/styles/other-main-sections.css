@@ -13,10 +13,9 @@
 .banner-stream-img {
   width: calc(100vw - 10vw);
 }
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1300px) {
   .banner-stream-img {
-    margin-left: 30px;
+    margin-left: 50px;
   }
 }
 
@@ -302,6 +301,7 @@
 }
 .buzz-section {
   display: none;
+  padding-bottom: 80px;
 }
 @media screen and (max-width: 767px) {
   .buzz-section {
@@ -315,9 +315,12 @@
   transition: 0.5s;
   padding-top: 5px;
   padding-bottom: 5px;
-  position: sticky;
-  bottom: 1px;
-  background-color: #e9ecef;
+  position: fixed;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-color: white;
+  z-index: 1;
 }
 .mobile-below-menu-main-container {
   display: flex;

@@ -5,7 +5,7 @@ const fetchBuzzContent = async () => {
     const response = await fetch(url);
     const data = await response.json();
     const items = data.map(({ img, alt, description }) => {
-      return ` <a href="" class="buzz-single-item"
+      return ` <a href="#" class="buzz-single-item"
           ><div class="buzz-container">
             <img src="${img}" alt="${alt}" loading="lazy"/>
             <p>${description}</p>

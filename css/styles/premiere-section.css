@@ -4,8 +4,14 @@
   background: rgb(43, 49, 72);
   position: relative;
   margin-top: 30px;
+  display: none;
+  transition: 0.5s;
 }
-
+@media screen and (min-width: 768px) {
+  .premiere-movies-section {
+    display: block;
+  }
+}
 /* premiere banner image */
 
 .banner-premiere-img-container {
@@ -62,4 +68,129 @@
 }
 .premiere-slide-btn2 {
   top: 60%;
+}
+
+/* premiere section for mobile */
+.head-premiere-mobile-container {
+  display: grid;
+  grid-template-columns: repeat(10, 100vw);
+  grid-template-rows: repeat(1, 1fr);
+  overflow-x: scroll;
+  transition: 0.5s;
+}
+
+.premiere-movies-section-mobile {
+  display: none;
+  background: rgb(43, 49, 72);
+  transition: 0.5s;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+@media screen and (max-width: 767px) {
+  .premiere-movies-section-mobile {
+    display: block;
+  }
+}
+/* mobile premiere banner image */
+.banner-premiere-img-mobile-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.banner-premiere-img-mobile {
+  width: 100vw;
+}
+
+/* premiere movies */
+
+.premiere-movie-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+}
+.premiere-mobile-movie {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+}
+
+.premiere-mobile-movie img {
+  width: 300px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/* premiere movie details */
+.movie-mobile-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.movie-mobile-details h1 {
+  padding: 5px;
+}
+.movie-mobile-details p {
+  padding: 5px;
+  font-size: 0.9rem;
+}
+
+/* purchase premiere movie button */
+.purchase-premiere-movie {
+  padding: 10px;
+  width: 100%;
+}
+.purchase-premiere-movie-btn {
+  color: white;
+  background-color: var(--primary-color);
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 1.2rem;
+  width: 100%;
+  font-weight: bold;
+}
+@media screen and (max-width: 510px) {
+  .premiere-mobile-movie img {
+    width: 200px;
+  }
+}
+@media screen and (max-width: 395px) {
+  .premiere-mobile-movie img {
+    width: 150px;
+  }
+  .movie-mobile-details h1 {
+    font-size: 0.9rem;
+  }
+  .movie-mobile-details p {
+    font-size: 0.8rem;
+  }
+  .purchase-premiere-movie-btn {
+    font-size: 0.87rem;
+    padding: 8px;
+  }
+}
+
+/* lines */
+.lines {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.line {
+  background: linear-gradient(to right, white 50%, #ced4da 50%);
+  background-size: 200% 100%;
+  background-position: bottom right;
+  transition: all 4s ease-out;
+  width: 40px;
+  padding: 1px;
+  margin-right: 3px;
+  border-radius: 2px;
 }

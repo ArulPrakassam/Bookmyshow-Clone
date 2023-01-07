@@ -125,7 +125,7 @@ class FetchContents {
       const data = await response.json();
       const items = data.map((item) => {
         const { title, ratings, img, genre } = item;
-        return `<a class="container" href="">
+        return `<a class="container" href="#">
                 <div class="img-container">
                 <picture>
                     <img class="poster movie-poster" src="${img}" alt="${title}"
@@ -166,7 +166,7 @@ class FetchContents {
         const { img, alt } = item;
         return `
     
-      <a href="" class="live-events-img-container">
+      <a href="#" class="live-events-img-container">
         <picture>
           <img
             src="${img}"
@@ -192,7 +192,7 @@ class FetchContents {
         const { img, language, title } = item;
         return `
     
-     <a class="container" href="">
+     <a class="container" href="#">
           <div class="img-container">
             <picture>
               <img
@@ -230,7 +230,7 @@ class FetchContents {
         const { img, platform, title } = item;
         return `
     
-     <a class="container" href="">
+     <a class="container" href="#">
           <div class="img-container">
             <picture>
               <img
@@ -270,7 +270,7 @@ class FetchContents {
         const { img, location, title } = item;
         return `
     
-     <a class="container" href="">
+     <a class="container" href="#">
           <div class="img-container">
             <picture>
               <img
@@ -310,7 +310,7 @@ class FetchContents {
         const { img, platform, title } = item;
         return `
     
-     <a class="container" href="">
+     <a class="container" href="#">
           <div class="img-container">
             <picture>
               <img
@@ -350,7 +350,7 @@ class FetchContents {
         const { img, platform, title } = item;
         return `
     
-     <a class="container" href="">
+     <a class="container" href="#">
           <div class="img-container">
             <picture>
               <img
@@ -390,7 +390,7 @@ class FetchContents {
         const { img, platform, title } = item;
         return `
     
-     <a class="container" href="">
+     <a class="container" href="#">
           <div class="img-container">
             <picture>
               <img
@@ -430,7 +430,7 @@ class FetchContents {
         const { img, platform, title } = item;
         return `
     
-     <a class="container" href="">
+     <a class="container" href="#">
           <div class="img-container">
             <picture>
               <img
@@ -508,10 +508,18 @@ belowMenuIconContainer.forEach((item) => {
         // if id matches means then check for classList of child, if it is present means then remove it
         if (icon.firstElementChild.classList.contains("black-color")) {
           icon.firstElementChild.classList.remove("black-color");
+          icon.lastElementChild.style.color = "rgb(248, 68, 100)";
         }
       } else {
         icon.firstElementChild.classList.add("black-color");
+        icon.lastElementChild.style.color = "rgb(102, 102, 102)";
       }
     });
   });
+});
+
+//buffer section
+const preloader = document.querySelector(".preloader-section");
+window.addEventListener("load", () => {
+  preloader.style.display = "none";
 });
