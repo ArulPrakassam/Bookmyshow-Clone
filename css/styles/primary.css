@@ -28,6 +28,7 @@ body {
   font-family: var(--roboto-font);
   background-color: #e9ecef;
   user-select: none;
+  overflow-x: hidden;
 }
 /* preloader for desktop */
 .preloader-section {

@@ -218,8 +218,12 @@ nav {
     grid-template-columns: repeat(7, 1fr);
     overflow-x: scroll;
     scroll-behavior: smooth;
+    scrollbar-width: none;
     padding-top: 5px;
     padding-bottom: 0;
+  }
+  .nav-mobile-links::-webkit-scrollbar {
+    display: none;
   }
   .nav-mobile-links-icon {
     width: 78px;
