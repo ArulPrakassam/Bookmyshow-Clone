@@ -14,6 +14,6 @@ This is the bookmyshow clone created by Arul Prakassam. This is for only coding 
 
 This version is the basic home page template of the bookmyshow. The specialities of this version is
 
-- It is separate footer for desktop
+- It has separate footer for desktop
 - The mobile view of the premiere section is different from the desktop view
-- Added buffer to make the look similar to real bookmysho
+- Added buffer to make the look similar to real bookmyshow
